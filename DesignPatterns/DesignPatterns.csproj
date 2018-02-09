@@ -42,14 +42,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Patterns\Example1\Behavior\DecoyDuck.cs" />
+    <Compile Include="Patterns\Example1\Behavior\Duck.cs" />
+    <Compile Include="Patterns\Example1\Behavior\FlyNoWayBehavior.cs" />
+    <Compile Include="Patterns\Example1\Behavior\FlyWithWingsBehavior.cs" />
+    <Compile Include="Patterns\Example1\Behavior\IFlyBehavior.cs" />
+    <Compile Include="Patterns\Example1\Behavior\IQuackBehavior.cs" />
+    <Compile Include="Patterns\Example1\Behavior\MallardDuck.cs" />
+    <Compile Include="Patterns\Example1\Behavior\MuteQuackBehavior.cs" />
+    <Compile Include="Patterns\Example1\Behavior\QuackBehavior.cs" />
+    <Compile Include="Patterns\Example1\Behavior\RedheadDuck.cs" />
+    <Compile Include="Patterns\Example1\Behavior\RubberDuck.cs" />
+    <Compile Include="Patterns\Example1\Behavior\SqueakBehavior.cs" />
+    <Compile Include="Patterns\Example1\Interface\DecoyDuck.cs" />
+    <Compile Include="Patterns\Example1\Interface\Duck.cs" />
+    <Compile Include="Patterns\Example1\Interface\IFlyable.cs" />
+    <Compile Include="Patterns\Example1\Interface\IQuackable.cs" />
+    <Compile Include="Patterns\Example1\Interface\MallardDuck.cs" />
+    <Compile Include="Patterns\Example1\Interface\RedheadDuck.cs" />
+    <Compile Include="Patterns\Example1\Interface\RubberDuck.cs" />
+    <Compile Include="Patterns\Example1\Inheritance\DecoyDuck.cs" />
+    <Compile Include="Patterns\Example1\Inheritance\Duck.cs" />
+    <Compile Include="Patterns\Example1\Inheritance\MallardDuck.cs" />
+    <Compile Include="Patterns\Example1\Inheritance\RedheadDuck.cs" />
+    <Compile Include="Patterns\Example1\Inheritance\RubberDuck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Patterns\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
